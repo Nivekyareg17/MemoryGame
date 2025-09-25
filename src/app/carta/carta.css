@@ -1,0 +1,597 @@
+.body1 {
+  background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+   width: 1650px;
+   height: 2000px;
+   margin-left: -10px;
+    margin-top: -50px;
+    
+   
+}
+.container1 {
+    background-color: rgb(215, 208, 208);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    border-radius: 30px;
+    padding: 30px;
+    position: block;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.row1 {
+    display: flex;
+    gap: 5px;
+
+}
+
+.row2 {
+    display: flex;
+    gap: 5px;
+
+}
+
+.row3 {
+    display: flex;
+    gap: 5px;
+
+}
+
+.row4 {
+    display: flex;
+    gap: 5px;
+
+}
+
+.cambiocard1 {
+
+    content: url("https://copilot.microsoft.com/th/id/BCO.b1323158-7eb6-4776-85aa-edf89067ccbf.png");
+    width: 150px;
+    height: 250px;
+
+}
+
+.card1 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card2 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+
+.card2 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.card3 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+
+.card3 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.card4 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+
+.card4 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card5 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card5 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card6 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card6 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card7 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card7 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card8 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card8 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card9 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card9 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card10 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card10 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card11 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card11 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card12 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card12 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card13 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card13 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card14 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card14 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card15 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card15 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card16 {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card16 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/*Guns N' Roses*/
+.cambiocard1 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.7843156f-f80f-4998-8bf8-6ab64cd040c3.png");
+    width: 100%;
+    height: 100%;
+
+}
+.cambiocards1 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Metallica*/
+.cambiocard2 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.90c92acc-5928-4781-80b0-af41b990dcb6.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Guns N' Roses*/
+.cambiocard3 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.7843156f-f80f-4998-8bf8-6ab64cd040c3.png");
+    width: 100%;
+    height: 100%;
+
+}
+.cambiocards3 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Mago Oz*/
+.cambiocard4 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.87cb6085-2ca3-4a56-90cf-54f2da8ff337.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Ac Dc*/
+.cambiocard5 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.c40d4224-fb06-4a45-9104-0b90a1a18721.png");
+    width: 100%;
+    height: 100%;
+}
+
+/*Baby Metal*/
+.cambiocard6 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.914e3de4-34aa-4f7d-a176-62e16ea4be82.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Metallica*/
+.cambiocard7 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.90c92acc-5928-4781-80b0-af41b990dcb6.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Nirvana*/
+.cambiocard8 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.9232d17d-68ea-486a-ae15-2c7c75d6470b.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Green day*/
+.cambiocard9 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.d8711803-f82c-4aa7-b33c-6c4c0fc9d1cc.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Mago Oz*/
+.cambiocard10 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.87cb6085-2ca3-4a56-90cf-54f2da8ff337.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Green day*/
+.cambiocard11 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.d8711803-f82c-4aa7-b33c-6c4c0fc9d1cc.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*succubus tavern*/
+.cambiocard12 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.ec196513-dc6d-43c4-9151-6ff6afd601cc.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Ac Dc*/
+.cambiocard13 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.c40d4224-fb06-4a45-9104-0b90a1a18721.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Baby Metal*/
+.cambiocard14 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.914e3de4-34aa-4f7d-a176-62e16ea4be82.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*succubus tavern*/
+.cambiocard15 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.ec196513-dc6d-43c4-9151-6ff6afd601cc.png");
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Nirvana*/
+.cambiocard16 {
+    content: url("https://copilot.microsoft.com/th/id/BCO.9232d17d-68ea-486a-ae15-2c7c75d6470b.png");
+    width: 100%;
+    height: 100%;
+}
+
+.boton-invisible1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible15 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+
+.boton-invisible16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+}
+

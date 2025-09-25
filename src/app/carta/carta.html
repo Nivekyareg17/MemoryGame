@@ -1,0 +1,153 @@
+<div class="body1">
+    <!--Ranking-->
+
+    <!--Title-->
+    <h3
+        style="text-align: center; padding: 20px; font-size: 48px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <span style="color: rgb(255, 255, 255);">Memo</span><span style="color: #C084FC;">Juego</span>
+        <p style="font-size: 24px; color: white; margin-top: 10px;">¿Podras encontrar la pareja?</p>
+        <p style="font-size: 24px; color: white; margin-top: 20px;">Intentos fallidos: {{ intentos }}</p>
+    </h3>
+
+
+
+
+
+    <!--Memory board-->
+    <div class="container1" >
+        <div class="row1">
+
+            <div class="card1">
+                <img [class.cambiocard1]="VolteaNumero1==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible1" (click)="aumentar1()"></button>
+            </div>
+
+
+            <div class="card2">
+                <img [class.cambiocard2]="VolteaNumero2==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible2" (click)="aumentar2()"></button>
+            </div>
+
+
+
+            <div class="card3">
+                <img [class.cambiocard3]="VolteaNumero3==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible3" (click)="aumentar3()"></button>
+            </div>
+
+            <div class="card4">
+                <img [class.cambiocard4]="VolteaNumero4==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible4" (click)="aumentar4()"></button>
+
+            </div>
+        </div>
+        <div class="row2">
+            <div class="card5">
+                <img [class.cambiocard5]="VolteaNumero5==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible5" (click)="aumentar5()"></button>
+            </div>
+
+            <div class="card6">
+                <img [class.cambiocard6]="VolteaNumero6==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible6" (click)="aumentar6()"></button>
+                <button>Voltear</button>
+            </div>
+
+            <div class="card7">
+                <img [class.cambiocard7]="VolteaNumero7==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible7" (click)="aumentar7()"></button>
+                <button>Voltear</button>
+            </div>
+
+
+            <div class="card8">
+                <img [class.cambiocard8]="VolteaNumero8==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible8" (click)="aumentar8()"></button>
+            </div>
+        </div>
+
+        <div class="row3">
+            <div class="card9">
+                <img [class.cambiocard9]="VolteaNumero9==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible9" (click)="aumentar9()"></button>
+            </div>
+
+            <div class="card10">
+                <img [class.cambiocard10]="VolteaNumero10==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible10" (click)="aumentar10()"></button>
+                <button>Girar</button>
+            </div>
+
+            <div class="card11">
+                <img [class.cambiocard11]="VolteaNumero11==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible11" (click)="aumentar11()"></button>
+            </div>
+
+            <div class="card12">
+                <img [class.cambiocard12]="VolteaNumero12==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible12" (click)="aumentar12()"></button>
+            </div>
+        </div>
+        <div class="row4">
+            <div class="card13">
+                <img [class.cambiocard13]="VolteaNumero13==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible13" (click)="aumentar13()"></button>
+            </div>
+
+            <div class="card14">
+                <img [class.cambiocard14]="VolteaNumero14==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible14" (click)="aumentar14()"></button>
+            </div>
+            <div class="card15">
+                <img [class.cambiocard15]="VolteaNumero15==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible15" (click)="aumentar15()"></button>
+            </div>
+            <div class="card16">
+                <img [class.cambiocard16]="VolteaNumero16==true"
+                    src="https://copilot.microsoft.com/th/id/BCO.2cbff5eb-4d76-49c2-ac87-548c6b3a108c.png"
+                    alt="Carta de memoria con signo de interrogación" />
+                <button class="boton-invisible16" (click)="aumentar16()"></button>
+            </div>
+        </div>
+
+     
+
+    </div>
+    
+    <!--Time-->
+    <div>
+        <span>Tiempo: {{temporizadorMinutos}}</span><span>:</span><span>{{temporizadorSegundos}}</span>
+        <button (click)="startTime()">Iniciar</button>
+    </div>
+
+</div>
