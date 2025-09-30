@@ -2,7 +2,7 @@
     <!-- Título -->
     <h3
         style="text-align: center; padding: 20px; font-size: 48px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-        <span style="color: rgb(255, 255, 255);">Memo</span>
+        <span style="color: rgb(148, 200, 156);">Memo</span>
         <span style="color: #C084FC;">Juego</span>
         <p style="font-size: 24px; color: white; margin-top: 10px;">¿Podrás encontrar la pareja?</p>
         <p style="font-size: 24px; color: white; margin-top: 20px;">Intentos fallidos: {{ intentos }}</p>
@@ -105,6 +105,10 @@
     <div>
         <span>Tiempo: {{temporizadorMinutos}}</span><span>:</span><span>{{temporizadorSegundos}}</span>
         <button (click)="iniciarJuegoConRandom()">Iniciar</button>
+        <button (click)="iniciogame()">Iniciar Juego</button>
     </div>
+
+    
+
 
 </div>

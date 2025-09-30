@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-carta',
@@ -43,6 +43,8 @@ export class Carta {
   VolteaNumero15 = false;
   VolteaNumero16 = false;
 
+  
+
   matched: boolean[] = new Array(17).fill(false);
   processing = false;
 
@@ -52,7 +54,7 @@ export class Carta {
   // cartas activas del juego
   configuracion: string[] = [];
 
-  constructor() {
+  constructor(private cdr: ChangeDetectorRef) {
     this.iniciarJuegoConRandom(); // arranca ya con random
   }
 
@@ -179,5 +181,35 @@ export class Carta {
     clearInterval(this.intervalo);
     this.intervalo = null;
     this.juegoIniciado = false;
+  }
+
+
+  
+  iniciogame() {
+  this.VolteaNumero1 = true;
+this.VolteaNumero2 = true;
+this.VolteaNumero3 = true;
+this.VolteaNumero4 = true;
+this.VolteaNumero5 = true;
+this.VolteaNumero6 = true;
+this.VolteaNumero7 = true;
+this.VolteaNumero8 = true;
+this.VolteaNumero9 = true;
+this.VolteaNumero10 = true;
+this.VolteaNumero11 = true;
+this.VolteaNumero12 = true;
+this.VolteaNumero13 = true;
+this.VolteaNumero14 = true;
+this.VolteaNumero15 = true;
+this.VolteaNumero16 = true;
+this.cdr.detectChanges();
+
+    setTimeout(() => {
+  
+this.VolteaNumero1 = false; this.VolteaNumero2 = false; this.VolteaNumero3 = false; this.VolteaNumero4 = false; this.VolteaNumero5 = false; this.VolteaNumero6 = false; this.VolteaNumero7 = false; this.VolteaNumero8 = false; this.VolteaNumero9 = false; this.VolteaNumero10 = false; this.VolteaNumero11 = false; this.VolteaNumero12 = false; this.VolteaNumero13 = false; this.VolteaNumero14 = false; this.VolteaNumero15 = false; this.VolteaNumero16 = false;
+ 
+this.cdr.detectChanges()
+}, 1000);
+ 
   }
 }
